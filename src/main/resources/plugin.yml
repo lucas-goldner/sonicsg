@@ -1,0 +1,15 @@
+name: SonicSG
+version: 0.1
+author: GoldNerd
+main: com.goldnerd.sonicsg.SonicSG
+api-version: 1.14
+commands:
+  sonicsign:
+    description: Changes a sign to a SonicSG join sign
+    usage: /<command>
+    aliases: [sonicsetup, sonicsignsetup, setupsonic]
+permissions:
+  SonicSG.sonicsign:
+    description: Lets a player setup the sings for the gamemode
+    default: op
+depend: [Vault]
